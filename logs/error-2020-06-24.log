@@ -1,0 +1,284 @@
+[2020-5-2414:17:25]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:267:15)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:40:29
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+
+
+[2020-5-2414:17:47]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:267:15)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:40:36
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+
+
+[2020-5-2414:17:49]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:267:15)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:40:36
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+
+
+[2020-5-2414:18:21]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:267:15)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:36
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+
+
+[2020-5-2414:18:36]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:267:15)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:36
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+
+
+[2020-5-2414:21:6]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:267:15)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:40:36
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+
+
+[2020-5-2414:25:50]GET/users/all
+undefined
+
+
+[2020-5-2414:26:29]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:267:15)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+
+
+[2020-5-2414:26:30]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:267:15)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+
+
+[2020-5-2414:32:1]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:1]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:1]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:1]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:1]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:1]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:6]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:6]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:6]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:36]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:36]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
+[2020-5-2414:32:36]GET/users/all
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:526:11)
+    at ServerResponse.header (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.json (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/response.js:264:10)
+    at /Users/mayudi/Desktop/Project/Pangu/routes/users.js:41:20
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mayudi/Desktop/Project/Pangu/node_modules/express/lib/router/index.js:335:12)
+
+
