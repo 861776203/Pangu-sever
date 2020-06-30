@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const { selectDatabases, selectTableinfo, updataCoordinate } = require('../db/tables/tables')
+const { selectTableCoordinate, updataCoordinate, updataColumn } = require('../db/tables/tables')
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('tables', { title: 'tablesApi' });
@@ -13,18 +13,18 @@ router.get('/', function(req, res, next) {
  * @apiGroup TablesApi
  * @apiParam {String} name 库名
  * 
- * @apiSuccess {String} table_name 表名
+ * @apiSuccess {String} name 表名
  * @apiSuccess {Number} x 表的x轴位置
  * @apiSuccess {Number} y 表的y轴位置
- * @apiSuccess {Array} info 字段信息
+ * @apiSuccess {Array} table_list 字段信息
  * 
  * @apiSuccessExample {json} Success-Response:
  *  {
  *      "data" : {
- *          "table_name" : "表名",
+ *          "name" : "表名",
  *          "x" : "表的x轴位置",
  *          "y" : "表的y轴位置",
- *          "info" : [{
+ *          "table_list" : [{
  *              "name": "字段名",
  *              "type": "字段类型",
  *              "notes": "字段备注"
@@ -34,27 +34,14 @@ router.get('/', function(req, res, next) {
  * @apiVersion 0.0.1
  */
 router.get('/info', function(req, res, next) {
-    let urlparams = req.query
     let tableList = []
-    let count = 0
-    selectDatabases(urlparams, (success)=>{
-        success.map((item, index)=>{
-            tableList.push({table_name: item.name, x: item.x, y: item.y })
-            selectTableinfo(item.name, (success2) => {
-                // tableList[index].info = [{ name: index }]
-                tableList[index].info = []
-                success2.map((item2, index2) => {
-                    tableList[index].info.push({ name: item2.COLUMN_NAME, type: item2.COLUMN_TYPE, notes: item2.COLUMN_COMMENT })
-                    if(index2+1 == success2.length) {
-                        count += 1
-                    }
-                    if(count===3) {
-                        res.json({ code: 0, data: tableList })
-                    }
-                })
-                // console.log(success2)
-                // console.log(tableList)
-            })
+    selectTableCoordinate((success) => {
+        success.map((item,index) => {
+            item.table_list = JSON.parse(item.table_list)
+            tableList.push(item)
+            if(index+1 == success.length) {
+                res.json({data: tableList})
+            }
         })
     })
 })
@@ -87,6 +74,19 @@ router.post('/updata_coordinate', (req, res, next) => {
             }
         })
     })
+})
+
+router.post('/move_column', (req, res, next) => {
+    let urlparams = req.body
+    if(!urlparams.table_name){
+        res.send({error: '表名不能为空', status: 1})
+    }else if (!urlparams.table_list) {
+        res.send({error: '列表数据不能为空', status: 1})
+    }else{
+        updataColumn(urlparams, (success) => {
+            res.json({code: 0, status: 1})
+        })
+    }
 })
 
 
