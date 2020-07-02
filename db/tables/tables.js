@@ -6,25 +6,34 @@ module.exports = {
     // 创建表
     createTable: (params, callback) => {
         let sqlparams = []
-        let tableName = params.name
-        delete params.name
-        for(let key in params) {
-            sqlparams.push(key)
-            sqlparams.push(params[key])
-        }
-        let sql = `create table ${tableName} (id int(255) NOT NULL PRIMARY KEY AUTO_INCREMENT);`
-        query(sql, sqlparams, (result) => {
-            callback(tableName);
+        let tableName = params.table_name
+        let columnList = JSON.parse(params.columnList)
+        let sql = `create table ${tableName} (id int(10) NOT NULL PRIMARY KEY AUTO_INCREMENT);`
+        new Promise((resolve, reject) => {
+            query(sql, [], (result) => {
+                resolve()
+            })
+        }).then(() => {
+            columnList.map((item, index) => {
+                let addcolumnsql = `alter table ${tableName} add ${item.column_name} ${item.type} comment ?`
+                sqlparams = [item.notes]
+                query(addcolumnsql, sqlparams, (result) => {
+                    if(index+1 == columnList.length) {
+                        callback(tableName)
+                    }
+                })
+            })
         })
     },
     // 创建表成功后读取新创建表的字段信息插入 table_coordinate 表
     insertTableCoordinate: (params, callback) => {
+        let tableList = []
         let sql = `insert into table_coordinate (name, x, y, table_list) values (?, ?, ?, ?)`
         let select_table_sql = `select * from information_schema.COLUMNS where table_name='${params}';`
         new Promise((resolve, reject) => {
             query(select_table_sql, params, (result) => {
                 result.map((item, index) => {
-                    tableList.push({ name: item.COLUMN_NAME, type: item.DATA_TYPE, notes: item.COLUMN_COMMENT })
+                    tableList.push({ name: item.COLUMN_NAME, type: item.COLUMN_TYPE, notes: item.COLUMN_COMMENT })
                     if(index+1 == result.length) {
                         resolve()
                     }
@@ -33,7 +42,7 @@ module.exports = {
         }).then(() => {
             let sqlparams = [params, 0, 40, JSON.stringify(tableList)]
             query(sql, sqlparams, (result) => {
-                console.log(result)
+                callback(result)
             })
         })
     },
